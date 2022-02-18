@@ -178,7 +178,7 @@ public class AugmentedImageRenderer {
 
     Pose anchorPose = centerAnchor.getPose();
 
-    float scaleFactor = 0.05f;
+    float scaleFactor = 0.25f;
     float[] modelMatrix = new float[16];
 
     dart1Pose = dartPoses[checkout.get(0)];
